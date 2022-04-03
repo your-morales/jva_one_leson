@@ -6,5 +6,6 @@ public class Point {
   double x2;
   double y2;
 
+
 }
 
