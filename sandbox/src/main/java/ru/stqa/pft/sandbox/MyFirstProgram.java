@@ -16,16 +16,11 @@ public class MyFirstProgram {
 
     Point p1 = new Point(4,6);
     Point p2 = new Point(5,8);
-
-
-    System.out.println("Расстояние между двумя точками + " + distance(p1,p2));
+    System.out.println("Расстояние между двумя точками + " + p1.distance(p2)) ;
 
   }
 
-  public static double distance(Point p1, Point p2){
-    double d = Math.sqrt((p2.x2 - p1.x1) * (p2.x2 - p1.x1) + (p2.y2 - p1.y1) * (p2.y2 * p1.y1));
-    return d;
-  }
+
 
   public static void hello(String somebody) {
     System.out.println("Hello, " + somebody + "!");
